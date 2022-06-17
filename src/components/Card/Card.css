@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card{
+    max-height: 18rem;
+    width: 30%;
+    /* border: blue 1px solid; */
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.cardTitle{
+    padding: 1.5rem 0;
+}
+
+.cardInfos{
+    padding-bottom: 1rem;
+}
+
+.cardDescription{
+    padding-bottom: 1rem
+}
+
+.cardImg{
+    width: 100%;
+}
+.cardBtn{
+    text-align: center;
+    margin-top: auto;
+}
+
+.cardPrix{
+    position: absolute;
+    text-align: center;
+    width: 3rem;
+    height: 1.5rem;
+    right: 0rem;
+    top: 0rem;
+    background-color: gray;
+    color: white;
+}

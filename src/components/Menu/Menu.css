@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .navigationWrapper{
+    border: 1px red solid;
+} */
+
+.navigation{
+    /* border: 1px blue solid; */
+    display: flex; 
+}
+.parent{
+    /* border: 1px green solid; */
+   list-style: none;
+   padding: 1rem 2rem;
+    color: gray;
+   
+}
+
+.parent:hover{
+    background-color: #73B9F8;
+    color: white;
+    cursor: pointer;
+}
+ 

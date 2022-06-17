@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.panier {
+    display: flex;
+    justify-content: center;
+    /* border: red 1px solid; */
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+    background-color: #daeefd;
+
+}
+
+.panier h2 {
+    color: #73B9F8;
+    font-size: 2rem;
+    font-weight: bold;
+}
