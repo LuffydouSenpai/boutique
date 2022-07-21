@@ -1,3 +1,5 @@
+import React,{useContext} from 'react';
+import BoutiqueContext from '../../BoutiqueContext';
 import "./MenuBtn.css"
 /* exemple de component avec fonction fléchée SANS RETURN */
 
@@ -6,7 +8,18 @@ import "./MenuBtn.css"
 } */
 
 function MenuBtn(props){
-    return <div>{props.children}</div>
+    const data = useContext(BoutiqueContext);
+    let displayBtn = false;
+    if(props.btnCart === true && data.achat.length){
+        displayBtn = true;
+    }
+    return (<div>{props.children}
+                {
+                    /* displayBtn ? <span className='badge'>({data.achat.length})</span> : "" */
+                    displayBtn &&= <span className='badge'>({data.achat.length})</span>
+
+                }
+            </div>);
 }
 
 

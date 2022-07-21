@@ -1,5 +1,4 @@
 import Card from "../Card/Card";
-import { playlist } from "../../playlist";
 import "./Products.css";
 
 
@@ -9,9 +8,10 @@ function Products(props) {
             <h2>Vos Musique :</h2>
             <div className="cardContainer">
                 {
-                    playlist.map(function(value,key){
+                    props.listeDeLecture.map(function(value,key){
                     return (<Card
                                 key = {key}
+                                dataKey ={key}
                                 cover = {value.cover}
                                 title = {value.title}
                                 artist = {value.artist}

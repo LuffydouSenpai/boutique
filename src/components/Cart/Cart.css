@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cart {
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    z-index: 1;
+    /* border: red 1px solid; */
+    width: 80vw;
+    min-height: 60vh;
+    background-color: #daeefd;
+
+}
+
+.cart h2 {
+    color: #73B9F8;
+    margin: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.cart table{
+    width: 90%;
+    margin: 0 auto;
+    font-size: 0.8rem;
+}
+
+table img{
+    width: 80px;
+}
+
+.totalPrix{
+    width: 80%;
+    margin: 2rem;
+    text-align: end;
+}
+
+.divCart{
+width: 80%;
+margin: 0 auto;
+}

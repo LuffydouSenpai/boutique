@@ -19,7 +19,7 @@ function Menu(props) {
                 </li>
                 <li className ="parent" id="servise" onClick={props.action}>
                     {/* declaration d'envent sur un element */}
-                    <MenuBtn >Panier <i className="fa-solid fa-cart-shopping"></i></MenuBtn>
+                    <MenuBtn btnCart={true}>Panier <i className="fa-solid fa-cart-shopping"></i></MenuBtn>
                 </li>
             </ul>
         </nav>

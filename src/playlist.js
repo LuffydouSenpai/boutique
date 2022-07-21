@@ -7,7 +7,7 @@ const playlist = [{
         "annee": 2021,
         "description": "Tsukimichi: Moonlit Fantasy",
         "prix": 14.99,
-        "quantite": 99
+        "quantite": 25
     },
     {
         "mp3": "assets/mp3/Shadows House  ed.mp3",
@@ -18,7 +18,7 @@ const playlist = [{
         "annee": 2021,
         "description": "Shadows House",
         "prix": 9.99,
-        "quantite": 99
+        "quantite": 10
     },
     {
         "mp3": "assets/mp3/Moon Halo - Honkai Impact 3rd Valkyrie Theme.mp3",
@@ -29,7 +29,7 @@ const playlist = [{
         "annee": 2021,
         "description": "Honkai Impact 3rd",
         "prix": 19.99,
-        "quantite": 99
+        "quantite": 5
     }
 ];
 

@@ -1,4 +1,5 @@
 import BuyBtn from "../BuyBtn/BuyBtn";
+import BoutiqueContext from "../../BoutiqueContext";
 import "./Card.css";
 
 function Card(props){
@@ -9,9 +10,10 @@ return <div className="card">
     <p className="cardDescription">{props.children}</p>
     <div className="cardBtn">
         {/* component CartBtn avec */}
-        <BuyBtn quantite={props.quantite}/>
+        <BuyBtn dataKey={props.dataKey}/>
     </div>
     <div className="cardPrix">{props.prix}€</div>
+    <div className="cardEssaie" onClick={()=>{console.log(true)}}>essaie</div>
 </div>
 }
 
